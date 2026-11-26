@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nützliche Links zum Üben und Nachschlagen</title>
-  <link rel="stylesheet" href="css/solid.min.css">
-  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/all-about.css">
   <style>
     .wrapper {
@@ -40,12 +39,14 @@
 
     a[href^="https://"]::after {
       display: inline-block;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      /* Set the font to Solid */
-      font: var(--fa-font-solid);
-      /* Set the Unicode value for the "fa-ghost" icon */
-      content: ' \f14d';
+      font-family: bootstrap-icons !important;
+      font-style: normal;
+      font-weight: 400 !important;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      vertical-align: -.125em;
+      content: ' \f1c5';
     }
   </style>
   <script src="js/kurs-navigation.js" defer></script>
@@ -72,7 +73,6 @@
             target="_blank">Guide für Flexbox Eigenschaften von Dimitar Stojanov </a></li>
         <li><a href="https://bennettfeely.com/flexplorer/" target="_blank">Flexplorer von Bennet Feely </a></li>
         <li><a href="https://flexboxfroggy.com/#de" target="_blank">Flexbox Froggy von Codepip </a></li>
-        <li><a href="https://cssgridgarden.com/#de" target="_blank">Grid Garden von Codepip </a></li>
       </ul>
     </div>
   </main>
